@@ -1,6 +1,6 @@
 
 # Step1: Setting the right workin directory
-set("~/final_project")
+#set("~/final_project")
 
 # Creating the testing data file which consists of adding three
 # files togegher: X_test.txt, Y_test.txt, subject_test.txt

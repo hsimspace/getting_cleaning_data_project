@@ -17,7 +17,7 @@ train_subject <- read.table("UCI HAR Dataset/train/subject_train.txt", header=FA
 merge_train <- cbind(train_x, train_y, train_subject)
 
 # Merge both the testing and training
-final_table <- rbind(merge_test,merge_train) # OK
+final_table <- rbind(merge_test,merge_train)
 
 # Creating the labels and features files
 activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt")
@@ -65,7 +65,7 @@ final_table_heading <- gsub("Mag", "Magnitude", final_table_heading, ignore.case
 final_table_heading <- gsub("freq", "Frequency", final_table_heading, ignore.case = TRUE)
 
 # Reset the column heading for the final_table_subset
-colnames(final_table_subset) <- final_table_heading  #Done
+colnames(final_table_subset) <- final_table_heading  
 
 # Select only the means of each variables
 select_right_variables <- grep("*mean*", final_table_heading, ignore.case = TRUE)

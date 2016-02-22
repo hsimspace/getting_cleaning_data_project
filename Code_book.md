@@ -19,7 +19,7 @@ The following steps were followed to produce the tidy_data text file:
 9) Filter the column headings in order to only extract the means and standard deviation variables.
 
 10) Use the filter to create a new and reduced table that only contain the mean and standard deviation measures as well as 
-    the column 'Activity' and 'Subject'. 
+    the column 'Activity' and 'Subject'.  
     
 11) Use the gsub() function to replace the abbreviated name patterns to fully descriptive column heading. 
 

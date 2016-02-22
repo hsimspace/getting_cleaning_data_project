@@ -9,3 +9,4 @@ In this project we performed the following tasks:
 4.- Add labels to the merged data 
 5.- Filter each activity performed by each subject in experiment 
 6.- Finally produce a final table containing the mean of each activity performed. 
+ 
